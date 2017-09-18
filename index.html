@@ -5,6 +5,7 @@
 
     <!-- This is where your <meta> viewport tag should go -->
     <!-- We need this to indicate to devices that our design is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro">
     <link rel="stylesheet" href="css/styles.css">
@@ -13,9 +14,12 @@
 
   <body>
     <header class="site-header">
-      <h1 class="site-logo"><img src="images/logo.svg" alt="Bitmaker Responsive Movie DB" class="site-logo-image"></h1>
+      <h1 class="site-logo">
+        <img src="images/logo.svg" alt="Bitmaker Responsive Movie DB" class="site-logo-image">
+      </h1>
       <nav class="site-nav">
         <ul class="site-nav-list">
+          
           <li class="site-nav-item">
             <i class="fa fa-video-camera"></i>
             <span class="site-nav-item-label">Movies</span>
@@ -42,7 +46,7 @@
 
     <main>
       <article class="movie">
-      <figure class="movie-image">
+        <figure class="movie-image">
           <img class="movie-poster" alt="Doctor Strange" src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg" />
           <img class="movie-backdrop" alt="Doctor Strange" src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg" />
         </figure>
@@ -282,6 +286,8 @@
       </article>
     </main>
 
+    <div class="clearfix"></div>
+
     <footer class="site-footer">
       <nav class="footer-nav">
         <ul class="footer-nav-list">
@@ -304,7 +310,7 @@
       </nav>
 
       <section class="about">
-        <p>Site created by <strong>YOUR NAME!</strong></p>
+        <p>Site created by <strong>Martin Maco</strong></p>
         <p><small>A Bitmaker assignment &copy; 2016</small></p>
       </section>
     </footer>
